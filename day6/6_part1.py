@@ -33,7 +33,6 @@ for race in races:
     # a = 1
     b = -race["Time"]
     c = race["Distance"]
-    # We can use the quadratic equation x^2 - t*x + d where x the unknown is the 2 time to push that equals the record
     d = (b**2) - (4 * c)
 
     min = math.floor(((-b - cmath.sqrt(d)) / 2).real + 1)
